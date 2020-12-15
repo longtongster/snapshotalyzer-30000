@@ -2,6 +2,11 @@
 
 Demo project to manage AWS EC2 instance snapshots
 
+## Remark 
+
+Code does not run in a notebook nor in spyder. 
+You really need to use the command line
+
 ## About
 
 This project is a demo, and uses boto3 to manage 
@@ -15,4 +20,4 @@ Shotty uses the configuration file created by the AWS cli. e.g.
 
 ## Running
 
-python shotty/shotty.py
+`python shotty/shotty.py`
